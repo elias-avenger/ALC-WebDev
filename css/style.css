@@ -1,0 +1,69 @@
+body{
+  background-color: #fff;
+  font-family: calibri;
+}
+header{
+  background-color: #eee;
+}
+#header-logo{
+  max-height: 50px;
+  position: relative;
+}
+#header-logo img{
+  max-height: inherit;
+  width: 80%;
+  position: relative;
+}
+.nav-bar{
+  padding: 5px 40px 5px;
+  vertical-align: middle;
+  width: 80%;
+  position: relative;
+}
+.nav-bar img{
+  height: 50px;
+}
+.nav-bar ul li{
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+}
+.nav-bar ul .main-list a{
+  text-decoration: none;
+  padding: 10px;
+  border: #258 dotted 1px;
+  color: #258;
+}
+.nav-bar ul .main-list a:hover{
+  background-color: #258;
+  color: #fff;
+}
+.nav-bar ul #resp-icon{
+  display: none;
+}
+#logout-btn{
+  text-decoration: none;
+  padding: 10px;
+  color: #D82;
+}
+#logout-btn:hover{
+  border-bottom: solid #D82 2px;
+  border-left: solid #D82 1px;
+}
+#welcome-note{
+  font-size: 4vw;
+  color: #8ad;
+}
+#font-light{
+  color: #eee;
+  font-weight: bold;
+}
+.session-div{
+  background-image: url('images/session1.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: contain;
+  padding: 50px;
+  border-radius: 200px;
+
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px){
+	.nav-bar{
+		width: 100%;
+	}
+	.nav-bar ul li{
+		display: block;
+		float: none;
+	}
+	.nav-bar ul .main-list{
+		display: none;
+	}
+}

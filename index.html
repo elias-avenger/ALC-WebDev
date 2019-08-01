@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>ALC-2.0</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style media="screen">
+      @media screen and (max-width: 800px){
+        .nav-bar{
+          overflow: hidden;
+        }
+        .nav-bar ul li{
+          display: none;
+          float: none;
+        }
+        .nav-bar ul #active{
+          display: table-cell;
+          float: left;
+          padding-right: 40%;
+        }
+        .nav-bar ul .icon-list{
+          display: none;
+        }
+        .nav-bar ul #resp-icon{
+          display: table-cell;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header-logo">
+        <img src="images/oysters_pearls1.png" alt="O&P logo" class="nav-logo">
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li class='main-list' id="active"><a href="#">Home</a></li>
+          <li class='main-list'><a href="#">Services</a></li>
+          <li class='main-list'><a href="#">FAQ</a></li>
+          <li class='main-list'><a target="blank" href="https://facebook.com">Facebook</a></li>
+          <li style="float: right;" class="logout"><a href="#" id="logout-btn">Logout</a></li>
+          <li id="resp-icon"><a href="#"><img src="images/menu_icon.png"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- welcome paragraph -->
+    <p id="welcome-note">You are all welcome! to ALC web development at O&P</p>
+    <div class="session-div" style="background-image: url('images/session1.jpg');">
+      <h2 id="font-light">During the session !</h2>
+      <!--<img src="images/session1.jpg" width="500px" alt="We are good">-->
+      <p id="font-light">Andella Learning Comminity 2019</p>
+      <i>By Justine Okumu</i>
+    </div>
+  </body>
+</html>
